@@ -1,0 +1,43 @@
+{
+	"credit": "Made by BULLDOZOR",
+	"textures": {
+		"0": "block/bulldozor/4hamilton",
+		"1": "block/bulldozor/bulldozor3"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, 0],
+			"to": [32, 16, 1],
+			"faces": {
+				"north": {"uv": [0, 5.57996, 16, 10.88787], "texture": "#0"},
+				"east": {"uv": [16, 16, 15, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 10], "texture": "#1"},
+				"west": {"uv": [0, 0, 1, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 1], "texture": "#1"},
+				"down": {"uv": [0, 15, 16, 16], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.4, 0.4, 0.4],
+			"translation": [0, -3, 0],
+			"rotation": [80, 0, 0]
+		},
+		"fixed": {
+			"scale": [3.334, 2, 2],
+			"rotation": [0, 0, 0],
+			"translation": [0, 0, 16]
+		},
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 0.5],
+			"rotation": [0, 180, 0],
+			"translation": [0, 0, -7]
+		},
+		"gui": {
+			"scale": [0.3, 0.3, 0.3],
+			"rotation": [0, 180, 0],
+			"translation": [0, 0, 0]
+		}
+	}
+}
